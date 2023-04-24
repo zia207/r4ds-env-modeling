@@ -1,4 +1,4 @@
-# Getting Started Digital Soil Mapping with R {.unnumbered}
+# Getting Started with R {.unnumbered}
 
 Digital Soil Mapping (DSM) is the process of creating maps of soil properties or classes using statistical, geostatistical, or machine learning techniques based on field observations, laboratory measurements, and environmental covariates.  
 
