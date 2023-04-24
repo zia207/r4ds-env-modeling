@@ -5,32 +5,32 @@
 
 Learning R can be a challenging but rewarding experience.Here are some steps to get started with learning R:
 
-Install R: You can download R for free from the official R website (https://www.r-project.org/). Choose the version of R that is appropriate for your operating system.
+**Install R**: You can download R for free from the official R website (https://www.r-project.org/). Choose the version of R that is appropriate for your operating system.
 
-Install an IDE: An Integrated Development Environment (IDE) can help make coding in R easier. RStudio (https://rstudio.com/) is a popular and user-friendly IDE for R.
+**Install an IDE**: An Integrated Development Environment (IDE) can help make coding in R easier. RStudio (https://rstudio.com/) is a popular and user-friendly IDE for R.
 
-Learn the basics: Start by learning the basic syntax and data types in R. You can find many online tutorials and resources to help you get started. The official R documentation (https://cran.r-project.org/manuals.html) is also a great resource.
+**Learn the basics**: Start by learning the basic syntax and data types in R. You can find many online tutorials and resources to help you get started. The official R documentation (https://cran.r-project.org/manuals.html) is also a great resource.
 
-Practice: Practice coding in R by working on small projects and exercises. Kaggle (https://www.kaggle.com/) and DataCamp (https://www.datacamp.com/) offer many R courses and projects to help you improve your skills.
+**Practice**: Practice coding in R by working on small projects and exercises. Kaggle (https://www.kaggle.com/) and DataCamp (https://www.datacamp.com/) offer many R courses and projects to help you improve your skills.
 
-Join the R community: Joining the R community can help you learn from other R users and get answers to your questions. You can find R user groups in many cities, and there are also many online communities such as the RStudio Community (https://community.rstudio.com/).
+**Join the R community**: Joining the R community can help you learn from other R users and get answers to your questions. You can find R user groups in many cities, and there are also many online communities such as the RStudio Community (https://community.rstudio.com/).
 
 
 Some popular resources for learning Data Science with R include:
 
-1.[R for Data Science](https://r4ds.had.co.nz/) by Hadley Wickham and Garrett Grolemund
+1. [R for Data Science](https://r4ds.had.co.nz/) by Hadley Wickham and Garrett Grolemund
 
-2.[Data Science in R](https://bookdown.org/rdpeng/rprogdatascience/) by Roger D. Peng
+2. [Data Science in R](https://bookdown.org/rdpeng/rprogdatascience/) by Roger D. Peng
 
-3.[Hands-On Machine Learning with R](https://bradleyboehmke.github.io/HOML) by Bradley Boehmke & Brandon Greenwell
+3. [Hands-On Machine Learning with R](https://bradleyboehmke.github.io/HOML) by Bradley Boehmke & Brandon Greenwell
 
-4.[Kaggle Learn](https://www.kaggle.com/code/rtatman/welcome-to-data-science-in-r)
+4. [Kaggle Learn](https://www.kaggle.com/code/rtatman/welcome-to-data-science-in-r)
 
-5.[Geographic Data Science with R](https://bookdown.org/mcwimberly/gdswr-book/)
+5. [Geographic Data Science with R](https://bookdown.org/mcwimberly/gdswr-book/)
 
-6.[Spatial Data Science with R and “terra”](https://rspatial.org/)
+6. [Spatial Data Science with R and “terra”](https://rspatial.org/)
 
-7.[R for Geographic Data Science](https://sdesabbata.github.io/r-for-geographic-data-science/index.html)
+7. [R for Geographic Data Science](https://sdesabbata.github.io/r-for-geographic-data-science/index.html)
 
 8. [Geospatial Data Science With R](https://zia207.github.io/geospatial-r-github.io/)
 

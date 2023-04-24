@@ -187,6 +187,31 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <a href="./getting-started-r.html" class="sidebar-item-text sidebar-link active">Getting Started with R</a>
   </div>
 </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Basic R</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./download-install-r.html" class="sidebar-item-text sidebar-link">Download and Installation R</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./introduction-to-r.html" class="sidebar-item-text sidebar-link">Introduction to use R</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./data-export-import.html" class="sidebar-item-text sidebar-link">Data export/import to/from R</a>
+  </div>
+</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -196,10 +221,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#getting-started-with-r" id="toc-getting-started-with-r" class="nav-link active" data-scroll-target="#getting-started-with-r">Getting Started with R</a>
-  <ul>
-  <li><a href="#learn-the-basics-of-r" id="toc-learn-the-basics-of-r" class="nav-link" data-scroll-target="#learn-the-basics-of-r">Learn the basics of R</a></li>
-  </ul></li>
+  <li><a href="#getting-started-with-r" id="toc-getting-started-with-r" class="nav-link active" data-scroll-target="#getting-started-with-r">Getting Started with R</a></li>
   </ul>
 </nav>
     </div>
@@ -210,36 +232,28 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <section id="getting-started-with-r" class="level1 unnumbered">
 <h1 class="unnumbered">Getting Started with R</h1>
-<p>Digital Soil Mapping (DSM) is the process of creating maps of soil properties or classes using statistical, geostatistical, or machine learning techniques based on field observations, laboratory measurements, and environmental covariates.</p>
 <p><a href="https://www.r-project.org/">R</a>is a popular open-source programming language for statistical computing and graphics that can be used for DSM. It was developed in 1980 based on the <a href="https://en.wikipedia.org/wiki/S_(programming_language)">S-language</a>, and an open-source community regularly updates the software for a robust, programmable, portable, and open-source computing environment. We can use it to solve complex and sophisticated problems and “routine” analysis without restrictions on access or use.</p>
-<p>Here are some steps to get started with DSM in R:</p>
+<p>Learning R can be a challenging but rewarding experience.Here are some steps to get started with learning R:</p>
+<p><strong>Install R</strong>: You can download R for free from the official R website (https://www.r-project.org/). Choose the version of R that is appropriate for your operating system.</p>
+<p><strong>Install an IDE</strong>: An Integrated Development Environment (IDE) can help make coding in R easier. RStudio (https://rstudio.com/) is a popular and user-friendly IDE for R.</p>
+<p><strong>Learn the basics</strong>: Start by learning the basic syntax and data types in R. You can find many online tutorials and resources to help you get started. The official R documentation (https://cran.r-project.org/manuals.html) is also a great resource.</p>
+<p><strong>Practice</strong>: Practice coding in R by working on small projects and exercises. Kaggle (https://www.kaggle.com/) and DataCamp (https://www.datacamp.com/) offer many R courses and projects to help you improve your skills.</p>
+<p><strong>Join the R community</strong>: Joining the R community can help you learn from other R users and get answers to your questions. You can find R user groups in many cities, and there are also many online communities such as the RStudio Community (https://community.rstudio.com/).</p>
+<p>Some popular resources for learning Data Science with R include:</p>
 <ol type="1">
-<li><p>Data collection and pre-processing: Collect soil samples and environmental covariates such as topography, climate, geology, and vegetation. Clean and transform the data into a format suitable for analysis in R.</p></li>
-<li><p>Exploratory data analysis: Explore the data using summary statistics, histograms, boxplots, scatterplots, and correlation matrices. Identify outliers, missing values, and spatial autocorrelation.</p></li>
-<li><p>Spatial data analysis: Use R packages such as raster, sp, and sf to handle spatial data. Create maps of the study area and overlay the soil and environmental data. Compute spatial statistics such as variograms, semivariograms, and covariance functions to quantify the spatial dependence of the data.</p></li>
-<li><p>Statistical modeling: Fit statistical models to predict soil properties or classes based on environmental covariates. Use packages such as h20, gstat, randomForest, caret, and mlr to fit models such as linear regression, kriging, geographically weighted regression, random forests, support vector machines, and neural networks.</p></li>
-<li><p>Model assessment and validation: Use cross-validation, bootstrapping, or independent validation data to assess the accuracy and reliability of the models. Compare the performance of different models and choose the best one.</p></li>
-<li><p>Map production: Use R packages such as ggplot2, raster, spplot, and leaflet to create maps of the predicted soil properties or classes. Customize the maps by adding legends, titles, labels, and basemaps.</p></li>
+<li><p><a href="https://r4ds.had.co.nz/">R for Data Science</a> by Hadley Wickham and Garrett Grolemund</p></li>
+<li><p><a href="https://bookdown.org/rdpeng/rprogdatascience/">Data Science in R</a> by Roger D. Peng</p></li>
+<li><p><a href="https://bradleyboehmke.github.io/HOML">Hands-On Machine Learning with R</a> by Bradley Boehmke &amp; Brandon Greenwell</p></li>
+<li><p><a href="https://www.kaggle.com/code/rtatman/welcome-to-data-science-in-r">Kaggle Learn</a></p></li>
+<li><p><a href="https://bookdown.org/mcwimberly/gdswr-book/">Geographic Data Science with R</a></p></li>
+<li><p><a href="https://rspatial.org/">Spatial Data Science with R and “terra”</a></p></li>
+<li><p><a href="https://sdesabbata.github.io/r-for-geographic-data-science/index.html">R for Geographic Data Science</a></p></li>
+<li><p><a href="https://zia207.github.io/geospatial-r-github.io/">Geospatial Data Science With R</a></p></li>
 </ol>
-<p>DSM with R requires some knowledge of statistics, spatial analysis, and programming. There are many resources available online, such as tutorials, books, and forums, to help you get started and improve your skills.</p>
-<p><a href="https://www.r-project.org/">R</a> is a programming language and software environment for statistical computing and graphics. It is widely used for data analysis and statistical modeling, and it has a large and active community of users and developers. If you are interested in learning R, here are some steps to get started:</p>
-<section id="learn-the-basics-of-r" class="level3">
-<h3 class="anchored" data-anchor-id="learn-the-basics-of-r">Learn the basics of R</h3>
-<p>There are many resources available to help you learn the basics of R. Some popular options include:</p>
-<p>R for Data Science (https://r4ds.had.co.nz/): This free online book provides a comprehensive introduction to R for data analysis and visualization.</p>
-<p>DataCamp (https://www.datacamp.com/courses/free-introduction-to-r): DataCamp offers a variety of interactive courses on R, including a free Introduction to R course.</p>
-<p>Coursera (https://www.coursera.org/courses?query=r%20programming): Coursera has several free and paid courses on R programming, including the popular Data Science Specialization from Johns Hopkins University.</p>
-<p>YouTube: There are many R tutorials available on YouTube, including channels like R Programming for Data Science and Data Analysis Dojo.</p>
-<p>Practice with real data: Once you have learned the basics of R, it is important to practice with real data. You can find datasets to work with in many places, including: Kaggle (https://www.kaggle.com/datasets): Kaggle is a platform for data science competitions and also provides many datasets for practice.</p>
-<p>UCI Machine Learning Repository (https://archive.ics.uci.edu/ml/index.php): The UCI Machine Learning Repository provides many datasets for machine learning research.</p>
-<p>R datasets: R comes with several built-in datasets that you can use for practice. You can see a list of these datasets by typing data() in the R console.</p>
-<p>Join the R community: R has a large and active community of users and developers who are willing to help newcomers. You can join the community by participating in online forums, attending local R user groups, or contributing to open source R packages.</p>
-<p>Learning R can be a challenging but rewarding experience. By following these steps and practicing regularly, you can become proficient in R and use it for your data analysis and statistical modeling needs.</p>
 
 
 <!-- -->
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -429,53 +443,39 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Getting Started with R {.unnumbered}</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>Digital Soil Mapping (DSM) is the process of creating maps of soil properties or classes using statistical, geostatistical, or machine learning techniques based on field observations, laboratory measurements, and environmental covariates.  </span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">R</span><span class="co">](https://www.r-project.org/)</span>is a popular open-source programming language for statistical computing and graphics that can be used for DSM.  It was developed in 1980 based on the <span class="co">[</span><span class="ot">S-language</span><span class="co">]</span>(https://en.wikipedia.org/wiki/S_(programming_language)), and an open-source community regularly updates the software for a robust, programmable, portable, and open-source computing environment. We can use it to solve complex and sophisticated problems and "routine" analysis without restrictions on access or use.</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">R</span><span class="co">](https://www.r-project.org/)</span>is a popular open-source programming language for statistical computing and graphics that can be used for DSM.  It was developed in 1980 based on the <span class="co">[</span><span class="ot">S-language</span><span class="co">]</span>(https://en.wikipedia.org/wiki/S_(programming_language)), and an open-source community regularly updates the software for a robust, programmable, portable, and open-source computing environment. We can use it to solve complex and sophisticated problems and "routine" analysis without restrictions on access or use.</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>Learning R can be a challenging but rewarding experience.Here are some steps to get started with learning R:</span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>Here are some steps to get started with DSM in R:</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>**Install R**: You can download R for free from the official R website (https://www.r-project.org/). Choose the version of R that is appropriate for your operating system.</span>
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Data collection and pre-processing: Collect soil samples and environmental covariates such as topography, climate, geology, and vegetation. Clean and transform the data into a format suitable for analysis in R.</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>**Install an IDE**: An Integrated Development Environment (IDE) can help make coding in R easier. RStudio (https://rstudio.com/) is a popular and user-friendly IDE for R.</span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Exploratory data analysis: Explore the data using summary statistics, histograms, boxplots, scatterplots, and correlation matrices. Identify outliers, missing values, and spatial autocorrelation.</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>**Learn the basics**: Start by learning the basic syntax and data types in R. You can find many online tutorials and resources to help you get started. The official R documentation (https://cran.r-project.org/manuals.html) is also a great resource.</span>
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Spatial data analysis: Use R packages such as raster, sp, and sf to handle spatial data. Create maps of the study area and overlay the soil and environmental data. Compute spatial statistics such as variograms, semivariograms, and covariance functions to quantify the spatial dependence of the data.</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>**Practice**: Practice coding in R by working on small projects and exercises. Kaggle (https://www.kaggle.com/) and DataCamp (https://www.datacamp.com/) offer many R courses and projects to help you improve your skills.</span>
 <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Statistical modeling: Fit statistical models to predict soil properties or classes based on environmental covariates. Use packages such as h20, gstat, randomForest, caret, and mlr to fit models such as linear regression, kriging, geographically weighted regression, random forests, support vector machines, and neural networks.</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>**Join the R community**: Joining the R community can help you learn from other R users and get answers to your questions. You can find R user groups in many cities, and there are also many online communities such as the RStudio Community (https://community.rstudio.com/).</span>
 <span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span>Model assessment and validation: Use cross-validation, bootstrapping, or independent validation data to assess the accuracy and reliability of the models. Compare the performance of different models and choose the best one.</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="ss">6. </span>Map production: Use R packages such as ggplot2, raster, spplot, and leaflet to create maps of the predicted soil properties or classes. Customize the maps by adding legends, titles, labels, and basemaps.</span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>DSM with R requires some knowledge of statistics, spatial analysis, and programming. There are many resources available online, such as tutorials, books, and forums, to help you get started and improve your skills.</span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">R</span><span class="co">](https://www.r-project.org/)</span> is a programming language and software environment for statistical computing and graphics. It is widely used for data analysis and statistical modeling, and it has a large and active community of users and developers. If you are interested in learning R, here are some steps to get started:</span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="fu">### Learn the basics of R</span></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>There are many resources available to help you learn the basics of R. Some popular options include:</span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>R for Data Science (https://r4ds.had.co.nz/): This free online book provides a comprehensive introduction to R for data analysis and visualization.</span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>DataCamp (https://www.datacamp.com/courses/free-introduction-to-r): DataCamp offers a variety of interactive courses on R, including a free Introduction to R course.</span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>Coursera (https://www.coursera.org/courses?query=r%20programming): Coursera has several free and paid courses on R programming, including the popular Data Science Specialization from Johns Hopkins University.</span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>YouTube: There are many R tutorials available on YouTube, including channels like R Programming for Data Science and Data Analysis Dojo.</span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>Practice with real data: Once you have learned the basics of R, it is important to practice with real data. You can find datasets to work with in many places, including:</span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>Kaggle (https://www.kaggle.com/datasets): Kaggle is a platform for data science competitions and also provides many datasets for practice.</span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>UCI Machine Learning Repository (https://archive.ics.uci.edu/ml/index.php): The UCI Machine Learning Repository provides many datasets for machine learning research.</span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>R datasets: R comes with several built-in datasets that you can use for practice. You can see a list of these datasets by typing data() in the R console.</span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>Join the R community: R has a large and active community of users and developers who are willing to help newcomers. You can join the community by participating in online forums, attending local R user groups, or contributing to open source R packages.</span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>Learning R can be a challenging but rewarding experience. By following these steps and practicing regularly, you can become proficient in R and use it for your data analysis and statistical modeling needs.</span>
-<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>Some popular resources for learning Data Science with R include:</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span><span class="co">[</span><span class="ot">R for Data Science</span><span class="co">](https://r4ds.had.co.nz/)</span> by Hadley Wickham and Garrett Grolemund</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span><span class="co">[</span><span class="ot">Data Science in R</span><span class="co">](https://bookdown.org/rdpeng/rprogdatascience/)</span> by Roger D. Peng</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span><span class="co">[</span><span class="ot">Hands-On Machine Learning with R</span><span class="co">](https://bradleyboehmke.github.io/HOML)</span> by Bradley Boehmke &amp; Brandon Greenwell</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span><span class="co">[</span><span class="ot">Kaggle Learn</span><span class="co">](https://www.kaggle.com/code/rtatman/welcome-to-data-science-in-r)</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span><span class="co">[</span><span class="ot">Geographic Data Science with R</span><span class="co">](https://bookdown.org/mcwimberly/gdswr-book/)</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="ss">6. </span><span class="co">[</span><span class="ot">Spatial Data Science with R and “terra”</span><span class="co">](https://rspatial.org/)</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="ss">7. </span><span class="co">[</span><span class="ot">R for Geographic Data Science</span><span class="co">](https://sdesabbata.github.io/r-for-geographic-data-science/index.html)</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="ss">8. </span><span class="co">[</span><span class="ot">Geospatial Data Science With R</span><span class="co">](https://zia207.github.io/geospatial-r-github.io/)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">

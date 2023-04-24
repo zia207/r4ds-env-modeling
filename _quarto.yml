@@ -26,6 +26,14 @@ website:
         text: Home
       - href: getting-started-r.qmd
         text: Getting Started with R 
+      - section: "Basic R"
+        contents:
+          - href: download-install-r.qmd
+            text: Download and Installation R
+          - href: introduction-to-r.qmd
+            text: Introduction to use R
+          - href: data-export-import.qmd
+            text: Data export/import to/from R
      
 fig-cap-location: top
 tbl-cap-location: top
