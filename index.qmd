@@ -1,0 +1,123 @@
+---
+title: " "
+---
+
+## 
+
+Data science plays a critical role in environmental modeling by enabling scientists to collect, process, analyze, and interpret large amounts of data from various sources, including satellite imagery, remote sensors, field measurements, and other sources. Environmental modeling is creating computer-based models that simulate the behavior of the environment, such as the movement of air and water, the distribution of pollutants, and the effects of climate change.
+Data science can be used in environmental modeling in many ways. For example, the statistical predictive model can be used to predict future environmental conditions based on historical data, and data visualization techniques can be used to display complex environmental data in a way that is easy to understand. Additionally, data science can be used to identify patterns and trends in environmental data that might not be apparent through traditional data analysis techniques.
+
+Another important area where data science is used in environmental modeling is spatial modeling since most environmental data are spatial. So spatial data science plays a critical role in environmental modeling by providing the tools and techniques needed to create highly accurate and detailed models of the environment. Spatial data science is a specialized area of data science that focuses on analyzing and interpreting spatial data, such as geographic information system (GIS) data, satellite imagery, and remote sensing data. In environmental modeling, spatial data science can be used to create highly detailed and accurate models of the environment, including the movement of air and water, the distribution of pollutants, and the effects of climate change. These models are used to forecast future environmental conditions, such as changes in temperature, rainfall, and sea levels. They can help researchers and policymakers make informed decisions about managing natural resources and mitigating climate change's effects.
+Data Science with R is a popular approach to analyzing data and creating data-driven models using the R programming language. R is an open-source programming language and environment that is widely used for statistical computing, data analysis, spatial data processing and analysis, and machine learning.
+
+Data Science with R involves several steps, including data cleaning, exploratory data analysis, data visualization, statistical modeling, and machine learning. The R language offers a wide range of tools and libraries for each step, including dplyr and tidyr for data cleaning, drlook for data exploration,  ggplot2 for data visualization, h20,  caret and mlr for machine learning, and raster, rgdal,  and gstat  for  spatial data processing and analysis. 
+
+
+Overall, data science plays a crucial role in environmental modeling by enabling scientists to understand better the complex interactions between the environment and human activity and providing the tools and techniques to make accurate predictions about future environmental conditions.
+
+
+Some popular resources for learning R and Data Science with R include:
+
+1.[R for Data Science](https://r4ds.had.co.nz/) by Hadley Wickham and Garrett Grolemund
+
+2.[Data Science in R](https://bookdown.org/rdpeng/rprogdatascience/) by Roger D. Peng
+
+3.[Hands-On Machine Learning with R](https://bradleyboehmke.github.io/HOML) by Bradley Boehmke & Brandon Greenwell
+
+4. [Kaggle Learn](https://www.kaggle.com/code/rtatman/welcome-to-data-science-in-r)
+
+5. [Geographic Data Science with R](https://bookdown.org/mcwimberly/gdswr-book/)
+
+6. [Spatial Data Science with R and “terra”](https://rspatial.org/)
+
+7. [R for Geographic Data Science](https://sdesabbata.github.io/r-for-geographic-data-science/index.html)
+
+8. [Geospatial Data Science With R](https://zia207.github.io/geospatial-r-github.io/)
+
+
+This training-workshop will covered following lessons:
+
+1.  [Getting Started Digital Soil Mapping with R](getting-started-r.html)
+
+2.  Basic R
+
+    2.1. [Download and Install R and R-Studio](download-install-r.html)
+
+    2.2. [Introduction to use R](intoduction-to-r.html)
+
+    2.3. [Data Import-Export into/from R](data-export-import.html)
+
+3.  Data Wrangling with R
+
+    3.1.[Introduction to Data Wragling](data-wragling-basic.html)
+
+    3.2.[Data Wrangling with dplyr and tidyr](data-wrgaling-dplyr.html)
+
+    3.3.[Data Wrangling with janitor](data-wrgaling-janitor.html)
+
+4.  Introduction to Data Exploration and Visualization
+
+    4.1.[Introduction to Data Exploration and Visualization](intro-data-exploration-visualization.html)
+
+    4.2. [Basic Data Exploration and Visualization](data-exploration-basic.html)
+
+    4.3.[Data Exploration with dlookr](eda-dlookr.html)
+
+5.  Regression Analysis
+
+    5.1.[Introduction to Regression Analysis](regression-analysis.html)
+
+    5.2 [Simple Linear Regression](simple-regression-analysis.html)
+
+    5.3.[Multiple Linear Regression](multiple-regrssion-analysis.html)
+
+    5.4.[Stepwise Regression](stepwise-regression.html)
+
+    5.5.[Regression Model Evaluation](regression-model-evaluation.html)
+
+6.  Multivariate Statistic
+
+    6.1 [Introduction to Multivariate Statistics](multivariate-statistics.html)
+
+    6.2.[Principal Component Analysis (PCA)](principal-component-analysis.html)
+
+    6.3.[Factor Analysis](factor-analysis.html)
+
+7. Machine Learning
+
+    7.1.[Introduction to Machine Learning](machine-learning.html)
+    
+  7.2. Regression Problem    
+    
+    7.2.1. [Generalized Linear Models](generalized-linear-models.html)
+    
+    7.2.2. [Regularized Generalized Linear Models](regularized-glm.html)
+    
+    7.2.3. [Regression Trees](regression-trees.html)
+    
+    7.2.4. [Random Forest](random-forest.html)
+    
+  7.3. Classification Problem
+
+8. Spatial Data Processing
+
+9.  Digital Terrain Modeling
+
+10. Remote Sensing
+
+11. Spatial Interpolation
+
+After finishing these lessons all participant will work on soil data and will produce digital soil maps of Bangladesh.
+
+![](Image/zia.png){width="243"}
+
+**Zia U Ahmed, PhD**
+
+Research Associate Professor (Data & Visualization)
+
+[RENEW (Research and Education in eNergy, Environment and Water) Institute](http://www.buffalo.edu/renew.html)
+
+[University at Buffalo](http://www.buffalo.edu/)
+
+
+With the right skills and tools, Data Science with R can be a powerful approach to analyzing data and building predictive models for a wide range of applications.

@@ -1,0 +1,46 @@
+project:
+  type: website
+  output-dir: docs
+  
+
+website:
+  title: "Data Science For Envrionmental Modeling"
+  
+  page-footer:
+    right: "This page is built with [Quarto](https://quarto.org/)."
+    left: "&copy; CC-By Zia Ahmed, Unversity at Buffalo 2023"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+    right: 
+      - icon: github
+        href: https://github.com/zia207
+      - icon: linkedin
+        href: https://github.com/zia207
+  sidebar:
+    contents:
+      - href: index.qmd
+        text: Home
+      - href: getting-started-r.qmd
+        text: Getting Started with R 
+     
+fig-cap-location: top
+tbl-cap-location: top
+title-block-banner: true
+
+format:
+  html:
+    theme: cosmo
+    fontsize: 1.2em
+    linestretch: 1.7
+    code-fold: true
+    code-tools: true
+    toc: true
+    toc-depth: 4
+    toc-title: Contents
+  
+
+
