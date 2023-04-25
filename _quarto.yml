@@ -4,7 +4,7 @@ project:
   
 
 website:
-  title: "Data Science For Envrionmental Modeling"
+  title: "Data Science with R For Envrionmental Modeling"
   
   page-footer:
     right: "This page is built with [Quarto](https://quarto.org/)."
@@ -19,7 +19,7 @@ website:
       - icon: github
         href: https://github.com/zia207
       - icon: linkedin
-        href: https://github.com/zia207
+        href: linkedin.com/in/zia-ahmed207
   sidebar:
     contents:
       - href: index.qmd
@@ -34,6 +34,14 @@ website:
             text: Introduction to use R
           - href: data-export-import.qmd
             text: Data export/import to/from R
+      - section: "Data Wragling with R"
+        contents:
+          - href: data-wrgaling-basic.qmd
+            text: Introduction to Data Wragling
+          - href: data-wrgaling-dplyr.qmd
+            text: Data Wrangling  with dplyr and tidyr
+          - href: data-wrgaling-janitor.qmd
+            text: Data Wrangling with janitor
      
 fig-cap-location: top
 tbl-cap-location: top

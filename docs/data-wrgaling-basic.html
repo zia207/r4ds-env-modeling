@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data Science with R For Envrionmental Modeling – getting-started-r</title>
+<title>Data Science with R For Envrionmental Modeling – data-wrgaling-basic</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -184,7 +184,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./getting-started-r.html" class="sidebar-item-text sidebar-link active">Getting Started with R</a>
+  <a href="./getting-started-r.html" class="sidebar-item-text sidebar-link">Getting Started with R</a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -222,7 +222,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data-wrgaling-basic.html" class="sidebar-item-text sidebar-link">Introduction to Data Wragling</a>
+  <a href="./data-wrgaling-basic.html" class="sidebar-item-text sidebar-link active">Introduction to Data Wragling</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -246,7 +246,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#getting-started-with-r" id="toc-getting-started-with-r" class="nav-link active" data-scroll-target="#getting-started-with-r">Getting Started with R</a></li>
+  <li><a href="#introduction-to-data-wrangling" id="toc-introduction-to-data-wrangling" class="nav-link active" data-scroll-target="#introduction-to-data-wrangling">Introduction to Data Wrangling</a>
+  <ul>
+  <li><a href="#steps-of-data-wrangling" id="toc-steps-of-data-wrangling" class="nav-link" data-scroll-target="#steps-of-data-wrangling">Steps of Data Wrangling</a></li>
+  <li><a href="#important-r-packages-for-data-wrangling" id="toc-important-r-packages-for-data-wrangling" class="nav-link" data-scroll-target="#important-r-packages-for-data-wrangling">Important R Packages for Data Wrangling</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -255,30 +259,48 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 
 
-<section id="getting-started-with-r" class="level1 unnumbered">
-<h1 class="unnumbered">Getting Started with R</h1>
-<p><a href="https://www.r-project.org/">R</a>is a popular open-source programming language for statistical computing and graphics that can be used for DSM. It was developed in 1980 based on the <a href="https://en.wikipedia.org/wiki/S_(programming_language)">S-language</a>, and an open-source community regularly updates the software for a robust, programmable, portable, and open-source computing environment. We can use it to solve complex and sophisticated problems and “routine” analysis without restrictions on access or use.</p>
-<p>Learning R can be a challenging but rewarding experience.Here are some steps to get started with learning R:</p>
-<p><strong>Install R</strong>: You can download R for free from the official R website (https://www.r-project.org/). Choose the version of R that is appropriate for your operating system.</p>
-<p><strong>Install an IDE</strong>: An Integrated Development Environment (IDE) can help make coding in R easier. RStudio (https://rstudio.com/) is a popular and user-friendly IDE for R.</p>
-<p><strong>Learn the basics</strong>: Start by learning the basic syntax and data types in R. You can find many online tutorials and resources to help you get started. The official R documentation (https://cran.r-project.org/manuals.html) is also a great resource.</p>
-<p><strong>Practice</strong>: Practice coding in R by working on small projects and exercises. Kaggle (https://www.kaggle.com/) and DataCamp (https://www.datacamp.com/) offer many R courses and projects to help you improve your skills.</p>
-<p><strong>Join the R community</strong>: Joining the R community can help you learn from other R users and get answers to your questions. You can find R user groups in many cities, and there are also many online communities such as the RStudio Community (https://community.rstudio.com/).</p>
-<p>Some popular resources for learning Data Science with R include:</p>
+<section id="introduction-to-data-wrangling" class="level1 unnumbered">
+<h1 class="unnumbered">Introduction to Data Wrangling</h1>
+<p><strong>Data Wrangling</strong>, also known as <strong>data munging</strong>, is the process of cleaning, transforming, and mapping data from one format to another to make it suitable for analysis and visualization. It involves resolving issues such as missing or duplicate values, inconsistent formatting, and dealing with outliers. Data wrangling is a crucial step in the data science process as it ensures that the data is reliable and trustworthy for further analysis and modeling. Data Wrangling of environmental data is the very important steps for building geospatial and machine Learning models.</p>
+<section id="steps-of-data-wrangling" class="level3">
+<h3 class="anchored" data-anchor-id="steps-of-data-wrangling">Steps of Data Wrangling</h3>
+<p>Here below <a href="https://favtutor.com/blogs/data-wrangling">6 steps of data wrangling</a>:</p>
 <ol type="1">
-<li><p><a href="https://r4ds.had.co.nz/">R for Data Science</a> by Hadley Wickham and Garrett Grolemund</p></li>
-<li><p><a href="https://bookdown.org/rdpeng/rprogdatascience/">Data Science in R</a> by Roger D. Peng</p></li>
-<li><p><a href="https://bradleyboehmke.github.io/HOML">Hands-On Machine Learning with R</a> by Bradley Boehmke &amp; Brandon Greenwell</p></li>
-<li><p><a href="https://www.kaggle.com/code/rtatman/welcome-to-data-science-in-r">Kaggle Learn</a></p></li>
-<li><p><a href="https://bookdown.org/mcwimberly/gdswr-book/">Geographic Data Science with R</a></p></li>
-<li><p><a href="https://rspatial.org/">Spatial Data Science with R and “terra”</a></p></li>
-<li><p><a href="https://sdesabbata.github.io/r-for-geographic-data-science/index.html">R for Geographic Data Science</a></p></li>
-<li><p><a href="https://zia207.github.io/geospatial-r-github.io/">Geospatial Data Science With R</a></p></li>
+<li><p><strong>Discovering</strong>: systematic wrangling based on some criteria which could restrict and divide the data accordingly.</p></li>
+<li><p><strong>Structuring</strong>: the raw data should be restructured to suit the analytically method. Feature engineering can be done in this stage,</p></li>
+<li><p><strong>Cleaning</strong>: outliers and missing values identification, transformation and imputation</p></li>
+<li><p><strong>Enriching</strong> upscale, downsample, or perform data augmentation.</p></li>
+<li><p><strong>Validating</strong>: validation data after processing.</p></li>
+<li><p><strong>Publishing</strong>: process for further use</p></li>
 </ol>
+<div id="fig-datawragling" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p></p><figcaption class="figure-caption">Figure&nbsp;1: Six steps of Data Wrangling</figcaption><p></p>
+<p><img src="Image/data_wragling steps.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="important-r-packages-for-data-wrangling" class="level3">
+<h3 class="anchored" data-anchor-id="important-r-packages-for-data-wrangling">Important R Packages for Data Wrangling</h3>
+<ul>
+<li><p><a href="https://dplyr.tidyverse.org/index.html">dplyr</a></p></li>
+<li><p><a href="https://purrr.tidyverse.org/">purr</a></p></li>
+<li><p><a href="https://tidyr.tidyverse.org/">tidyr</a></p></li>
+<li><p><a href="https://lubridate.tidyverse.org/">lubridate</a></p></li>
+<li><p><a href="https://magrittr.tidyverse.org/">magrittr</a></p></li>
+<li><p><a href="http://plyr.had.co.nz/">plyr</a></p></li>
+<li><p><a href="https://cran.r-project.org/web/packages/purrrlyr/index.html">purrrlyr</a></p></li>
+<li><p><a href="https://rdatatable.gitlab.io/data.table/">data.table</a></p></li>
+<li><p><a href="https://cran.r-project.org/web/packages/sqldf/index.html">sqldf</a></p></li>
+<li><p><a href="https://www.tidyverse.org/blog/2019/11/dtplyr-1-0-0/">dtplyr</a></p></li>
+<li><p><a href="https://rstudio.github.io/DT/">DT</a></p></li>
+<li><p><a href="https://cran.r-project.org/web/packages/janitor/vignettes/janitor.html">janitor</a></p></li>
+</ul>
 
 
 <!-- -->
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -466,41 +488,59 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Getting Started with R {.unnumbered}</span></span>
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Introduction to Data Wrangling  {.unnumbered}</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">R</span><span class="co">](https://www.r-project.org/)</span>is a popular open-source programming language for statistical computing and graphics that can be used for DSM.  It was developed in 1980 based on the <span class="co">[</span><span class="ot">S-language</span><span class="co">]</span>(https://en.wikipedia.org/wiki/S_(programming_language)), and an open-source community regularly updates the software for a robust, programmable, portable, and open-source computing environment. We can use it to solve complex and sophisticated problems and "routine" analysis without restrictions on access or use.</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>**Data Wrangling**, also known as **data munging**, is the process of cleaning, transforming, and mapping data from one format to another to make it suitable for analysis and visualization. It involves resolving issues such as missing or duplicate values, inconsistent formatting, and dealing with outliers. Data wrangling is a crucial step in the data science process as it ensures that the data is reliable and trustworthy for further analysis and modeling. Data Wrangling of environmental data  is the very important steps for building  geospatial and machine Learning models. </span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>Learning R can be a challenging but rewarding experience.Here are some steps to get started with learning R:</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>**Install R**: You can download R for free from the official R website (https://www.r-project.org/). Choose the version of R that is appropriate for your operating system.</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>**Install an IDE**: An Integrated Development Environment (IDE) can help make coding in R easier. RStudio (https://rstudio.com/) is a popular and user-friendly IDE for R.</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>**Learn the basics**: Start by learning the basic syntax and data types in R. You can find many online tutorials and resources to help you get started. The official R documentation (https://cran.r-project.org/manuals.html) is also a great resource.</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>**Practice**: Practice coding in R by working on small projects and exercises. Kaggle (https://www.kaggle.com/) and DataCamp (https://www.datacamp.com/) offer many R courses and projects to help you improve your skills.</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>**Join the R community**: Joining the R community can help you learn from other R users and get answers to your questions. You can find R user groups in many cities, and there are also many online communities such as the RStudio Community (https://community.rstudio.com/).</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">###  Steps of Data Wrangling </span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>Here below <span class="co">[</span><span class="ot">6 steps of data wrangling </span><span class="co">](https://favtutor.com/blogs/data-wrangling)</span>:</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="ss">1.  </span>**Discovering**:  systematic wrangling based on some criteria which could restrict and divide the data accordingly. </span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Structuring**:   the raw data should be restructured to suit the analytically method. Feature engineering can be  done in this stage,</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Cleaning**: outliers and missing values identification, transformation and imputation</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="ss">4.  </span>**Enriching**  upscale, downsample, or perform data augmentation. </span>
 <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>Some popular resources for learning Data Science with R include:</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span>**Validating**: validation data after processing. </span>
 <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span><span class="co">[</span><span class="ot">R for Data Science</span><span class="co">](https://r4ds.had.co.nz/)</span> by Hadley Wickham and Garrett Grolemund</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="ss">6. </span>**Publishing**: process for further use</span>
 <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span><span class="co">[</span><span class="ot">Data Science in R</span><span class="co">](https://bookdown.org/rdpeng/rprogdatascience/)</span> by Roger D. Peng</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span><span class="co">[</span><span class="ot">Hands-On Machine Learning with R</span><span class="co">](https://bradleyboehmke.github.io/HOML)</span> by Bradley Boehmke &amp; Brandon Greenwell</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="al">![Six steps of Data Wrangling](Image/data_wragling steps.png)</span>{#fig-datawragling}</span>
 <span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span><span class="co">[</span><span class="ot">Kaggle Learn</span><span class="co">](https://www.kaggle.com/code/rtatman/welcome-to-data-science-in-r)</span></span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span><span class="co">[</span><span class="ot">Geographic Data Science with R</span><span class="co">](https://bookdown.org/mcwimberly/gdswr-book/)</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">### Important R Packages for Data Wrangling </span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="ss">6. </span><span class="co">[</span><span class="ot">Spatial Data Science with R and “terra”</span><span class="co">](https://rspatial.org/)</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span><span class="co">[</span><span class="ot">dplyr</span><span class="co">](https://dplyr.tidyverse.org/index.html)</span> </span>
 <span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="ss">7. </span><span class="co">[</span><span class="ot">R for Geographic Data Science</span><span class="co">](https://sdesabbata.github.io/r-for-geographic-data-science/index.html)</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span><span class="co">[</span><span class="ot">purr</span><span class="co">](https://purrr.tidyverse.org/)</span></span>
 <span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="ss">8. </span><span class="co">[</span><span class="ot">Geospatial Data Science With R</span><span class="co">](https://zia207.github.io/geospatial-r-github.io/)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span><span class="co">[</span><span class="ot">tidyr</span><span class="co">](https://tidyr.tidyverse.org/)</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span><span class="co">[</span><span class="ot">lubridate</span><span class="co">](https://lubridate.tidyverse.org/)</span></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span><span class="co">[</span><span class="ot">magrittr</span><span class="co">](https://magrittr.tidyverse.org/)</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span><span class="co">[</span><span class="ot">plyr</span><span class="co">](http://plyr.had.co.nz/)</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span><span class="co">[</span><span class="ot">purrrlyr</span><span class="co">](https://cran.r-project.org/web/packages/purrrlyr/index.html)</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span><span class="co">[</span><span class="ot">data.table</span><span class="co">](https://rdatatable.gitlab.io/data.table/)</span></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span><span class="co">[</span><span class="ot">sqldf</span><span class="co">](https://cran.r-project.org/web/packages/sqldf/index.html)</span></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span><span class="co">[</span><span class="ot">dtplyr</span><span class="co">](https://www.tidyverse.org/blog/2019/11/dtplyr-1-0-0/)</span></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span><span class="co">[</span><span class="ot">DT</span><span class="co">](https://rstudio.github.io/DT/)</span></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span><span class="co">[</span><span class="ot">janitor</span><span class="co">](https://cran.r-project.org/web/packages/janitor/vignettes/janitor.html)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">

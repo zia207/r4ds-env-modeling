@@ -1,18 +1,16 @@
-# Introduction
+![](Image/cover_page.png){width="731"}
 
-Data science plays a critical role in environmental modeling by enabling scientists to collect, process, analyze, and interpret large amounts of data from various sources, including satellite imagery, remote sensors, field measurements, and other sources. Environmental modeling is creating computer-based models that simulate the behavior of the environment, such as the movement of air and water, the distribution of pollutants, and the effects of climate change.
-Data science can be used in environmental modeling in many ways. For example, the statistical predictive model can be used to predict future environmental conditions based on historical data, and data visualization techniques can be used to display complex environmental data in a way that is easy to understand. Additionally, data science can be used to identify patterns and trends in environmental data that might not be apparent through traditional data analysis techniques.
+------------------------------------------------------------------------
+
+Data science plays a critical role in environmental modeling by enabling scientists to collect, process, analyze, and interpret large amounts of data from various sources, including satellite imagery, remote sensors, field measurements, and other sources. Environmental modeling is creating computer-based models that simulate the behavior of the environment, such as the movement of air and water, the distribution of pollutants, and the effects of climate change. Data science can be used in environmental modeling in many ways. For example, the statistical predictive model can be used to predict future environmental conditions based on historical data, and data visualization techniques can be used to display complex environmental data in a way that is easy to understand. Additionally, data science can be used to identify patterns and trends in environmental data that might not be apparent through traditional data analysis techniques.
 
 Another important area where data science is used in environmental modeling is spatial modeling since most environmental data are spatial. So spatial data science plays a critical role in environmental modeling by providing the tools and techniques needed to create highly accurate and detailed models of the environment. Spatial data science is a specialized area of data science that focuses on analyzing and interpreting spatial data, such as geographic information system (GIS) data, satellite imagery, and remote sensing data. In environmental modeling, spatial data science can be used to create highly detailed and accurate models of the environment, including the movement of air and water, the distribution of pollutants, and the effects of climate change. These models are used to forecast future environmental conditions, such as changes in temperature, rainfall, and sea levels. They can help researchers and policymakers make informed decisions about managing natural resources and mitigating climate change's effects.
+
 Data Science with R is a popular approach to analyzing data and creating data-driven models using the R programming language. R is an open-source programming language and environment that is widely used for statistical computing, data analysis, spatial data processing and analysis, and machine learning.
 
-Data Science with R involves several steps, including data cleaning, exploratory data analysis, data visualization, statistical modeling, and machine learning. The R language offers a wide range of tools and libraries for each step, including dplyr and tidyr for data cleaning, drlook for data exploration,  ggplot2 for data visualization, h20,  caret and mlr for machine learning, and raster, rgdal,  and gstat  for  spatial data processing and analysis. 
-
+Data Science with R involves several steps, including data cleaning, exploratory data analysis, data visualization, statistical modeling, and machine learning. The R language offers a wide range of tools and libraries for each step, including dplyr and tidyr for data cleaning, drlook for data exploration, ggplot2 for data visualization, h20, caret and mlr for machine learning, and raster, rgdal, and gstat for spatial data processing and analysis.
 
 Overall, data science plays a crucial role in environmental modeling by enabling scientists to understand better the complex interactions between the environment and human activity and providing the tools and techniques to make accurate predictions about future environmental conditions.
-
-
-
 
 This training-workshop will covered following lessons:
 
@@ -62,23 +60,25 @@ This training-workshop will covered following lessons:
 
     6.3.[Factor Analysis](factor-analysis.html)
 
-7. Machine Learning
+7.  Machine Learning
 
     7.1.[Introduction to Machine Learning](machine-learning.html)
-    
-  7.2. Regression Problem    
-    
-    7.2.1. [Generalized Linear Models](generalized-linear-models.html)
-    
-    7.2.2. [Regularized Generalized Linear Models](regularized-glm.html)
-    
-    7.2.3. [Regression Trees](regression-trees.html)
-    
-    7.2.4. [Random Forest](random-forest.html)
-    
-  7.3. Classification Problem
 
-8. Spatial Data Processing
+7.2. Regression Problem
+
+```         
+7.2.1. [Generalized Linear Models](generalized-linear-models.html)
+
+7.2.2. [Regularized Generalized Linear Models](regularized-glm.html)
+
+7.2.3. [Regression Trees](regression-trees.html)
+
+7.2.4. [Random Forest](random-forest.html)
+```
+
+7.3. Classification Problem
+
+8.  Spatial Data Processing
 
 9.  Digital Terrain Modeling
 
@@ -97,6 +97,5 @@ Research Associate Professor (Data & Visualization)
 [RENEW (Research and Education in eNergy, Environment and Water) Institute](http://www.buffalo.edu/renew.html)
 
 [University at Buffalo](http://www.buffalo.edu/)
-
 
 With the right skills and tools, Data Science with R can be a powerful approach to analyzing data and building predictive models for a wide range of applications.
